@@ -853,7 +853,7 @@ type HumanName {
   _text: ElementBase
   family: String  
   _family: ElementBase
-  given: String 
+  given: [String] 
   _given: [ElementBase]
   prefix: String  
   _prefix: [ElementBase]
