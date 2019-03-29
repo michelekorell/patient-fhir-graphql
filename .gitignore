@@ -61,4 +61,4 @@ typings/
 .next
 
 #TSC builds
-dist
+dist/
