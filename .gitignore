@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@michelekorell Sign out
-1
-0 0 michelekorell/fhir-patient-graphql
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-fhir-patient-graphql/.gitignore
-@michelekorell michelekorell Initial commit
-87f65f0 a minute ago
-62 lines (44 sloc)  914 Bytes
-    
 # Logs
 logs
 *.log
@@ -77,15 +59,3 @@ typings/
 
 # next.js build output
 .next
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
