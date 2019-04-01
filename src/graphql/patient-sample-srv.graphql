@@ -1,6 +1,4 @@
-import {gql} from 'apollo-server';
 
-export const patientSchema = gql`
 
 # FHIR GraphQL Schema. Version 4.1.0
 
@@ -1969,4 +1967,3 @@ type Query {
     Patient(id: ID!): Patient
     PatientCreate(resource: PatientInput): PatientCreation
 }
-`;

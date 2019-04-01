@@ -257,6 +257,10 @@ const patient = JSON.parse(`{
 const resolvers = {
     Query: {
     Patient: () => patient,
+    PatientCreate: (resource: any) => {
+      console.log(resource);
+      return resource;
+    },
   },
 };
 
