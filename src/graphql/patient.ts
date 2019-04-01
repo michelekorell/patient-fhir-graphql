@@ -1966,7 +1966,10 @@ type OperationOutcomeIssue {
 }
 
 type Query {
-    Patient(id: ID!): Patient
-    PatientCreate(resource: PatientInput): PatientCreation
+  Patient(id: ID!): Patient
+}
+
+type Mutation {
+  PatientCreate(resource: PatientInput): PatientCreation
 }
 `;

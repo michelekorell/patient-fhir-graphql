@@ -255,11 +255,15 @@ const patient = JSON.parse(`{
 // Resolvers define the technique for fetching the types in the
 // schema.  We'll retrieve books from the "books" array above.
 const resolvers = {
-    Query: {
+  Query: {
     Patient: () => patient,
-    PatientCreate: (resource: any) => {
-      console.log(resource);
-      return resource;
+  },
+  Mutation: {
+    PatientCreate: (parent: any, args: any) => {
+      console.log(args.resource);
+      return {
+        resource: args.resource
+      };
     },
   },
 };
