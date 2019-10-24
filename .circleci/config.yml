@@ -5,4 +5,5 @@
        - image: circleci/node:10
      steps:
        - checkout
+       - run: npm i
        - run: npm test
