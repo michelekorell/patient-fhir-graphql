@@ -1,4 +1,8 @@
-# FHIR® Patient GraphQL server
+
+# FHIR©® Patient GraphQL server
+> A GraphQL sample server based on [HL7 FHIR Specification](https://www.hl7.org/fhir/).
+
+[![CircleCI](https://circleci.com/gh/michelekorell/patient-fhir-graphql/tree/master.svg?style=svg)](https://circleci.com/gh/michelekorell/patient-fhir-graphql/tree/master)
 
 ## Development server
 
